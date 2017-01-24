@@ -1,0 +1,15 @@
+{
+  "scope": "source.php - variable.other.php",
+
+  "completions":
+  [
+  	{"trigger": "dd", "contents": "die_dump(${1:\\$var});" },
+  	{"trigger": "ddd", "contents": "var_dump(${1:\\$var});exit;" },
+  	{"trigger": "dv", "contents": "debug_var(${1:\\$var});" },
+    {"trigger": "dvl", "contents": "debug_var_log(${1:\\$var});" },
+    {"trigger": "fd", "contents": "fire_debug(${1:\\$var});" },
+    {"trigger": "df", "contents": "debug_file(${1:\\$var}${2:,$filename='debug.txt'});" },
+	  {"trigger": "er", "contents": "error_log(print_r(${1:\\$var}, true));" }
+	  
+  ]
+}

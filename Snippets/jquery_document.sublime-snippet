@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+	jQuery(document).ready(function($){
+        //Put your code here
+    });
+]]></content>
+	<description>Create JQuery Document Ready</description>
+	<tabTrigger>jquery_document</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
